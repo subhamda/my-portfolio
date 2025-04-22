@@ -1,0 +1,59 @@
+import React from "react";
+
+export default function SubhamPortfolio() { return ( <div className="p-6 max-w-5xl mx-auto"> <header className="mb-10 text-center"> <h1 className="text-4xl font-bold">Subham Das</h1> <p className="text-lg text-gray-600">Software Developer | Python | .NET | Django</p> <p className="text-sm">Ranchi, Jharkhand - 834008 | sd674024@gmail.com | +91 9067660132</p> <a href="https://www.linkedin.com/in/subham-das-7bb33a1a1" className="text-blue-600 underline">LinkedIn</a> </header>
+
+<section className="mb-8">
+    <h2 className="text-2xl font-semibold mb-2">About Me</h2>
+    <p>
+      Results-driven Computer Science graduate with a strong foundation in software development,
+      object-oriented programming, and data structures. Passionate about problem-solving and building
+      scalable solutions with Python, .NET, and Django. Currently contributing to enterprise-grade projects at
+      Accenture.
+    </p>
+  </section>
+
+  <section className="mb-8">
+    <h2 className="text-2xl font-semibold mb-2">Projects</h2>
+    <ul className="space-y-4">
+      <li>
+        <h3 className="text-xl font-bold">Library Book Management System</h3>
+        <p>Developed a CRUD-based system using Django and SQLite to manage books, users, and fines efficiently.</p>
+      </li>
+      <li>
+        <h3 className="text-xl font-bold">Face Clone Web App</h3>
+        <p>Created using Python and Django with Bootstrap Studio. It offers a simple UI for image manipulation and cloning.</p>
+      </li>
+      <li>
+        <h3 className="text-xl font-bold">Vehicle Speed Detection System</h3>
+        <p>Implemented using OpenCV and Python to detect and track vehicle speed in video feeds with ML integration.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section className="mb-8">
+    <h2 className="text-2xl font-semibold mb-2">Experience</h2>
+    <p><strong>Accenture Solutions Pvt Ltd</strong> – Packaged App Development Associate (Apr 2024 – Present)</p>
+    <ul className="list-disc ml-6">
+      <li>Worked on scalable .NET applications in agile teams.</li>
+      <li>Designed APIs, managed databases, and contributed to UI enhancements.</li>
+      <li>Practiced DevOps fundamentals and unit testing strategies.</li>
+    </ul>
+  </section>
+
+  <section className="mb-8">
+    <h2 className="text-2xl font-semibold mb-2">Skills & Tools</h2>
+    <p>Python, C++, C#, .NET, ASP.NET, Django, HTML, CSS, JavaScript, MySQL, SQLite, Git, OpenCV, Bootstrap Studio</p>
+  </section>
+
+  <section>
+    <h2 className="text-2xl font-semibold mb-2">Certifications & Education</h2>
+    <ul className="list-disc ml-6">
+      <li>Certified Python Programmer (2022)</li>
+      <li>.NET Training – Central Tool Room & Training Centre</li>
+      <li>JPMorgan Chase Software Engineering Virtual Experience – Forage (2023)</li>
+      <li>B.Tech in Computer Science, GITA College, BPUT University – 8.1 CGPA</li>
+    </ul>
+  </section>
+</div>
+
+); }
